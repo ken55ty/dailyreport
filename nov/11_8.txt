@@ -37,7 +37,9 @@ def check_straight? number
   # 注意：13と1は連番扱いなので先にチェック
   return true if number_order == [1, 10, 11, 12, 13]
   # `[[4,5],[5,6],[6,7],[7,8]]`のようにチェックし合う数の配列を作成
-  number_combination = number_order.each_cons(2)
+  number_combination = number_order.each_cons(2)　
+  #each_cons メソッドは、列挙可能なオブジェクトの連続した n 要素のチャンクを反復処理するために使用されます。
+  この場合、n は 2 なので、each_cons メソッドは number_order 配列内のすべての連続した数字のペアを反復処理します。
   # 差が1かどうかチェック
   if number_combination.find{|a| (a[0] - a[1]).abs != 1}
     false
