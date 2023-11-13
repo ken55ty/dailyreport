@@ -1,0 +1,19 @@
+7:07おかげで開始
+addEventListenerで引数にeventを取り、event.preventDefault()を追加することでリロードされるのを防げる。
+const li = document.createElement("li");　HTMLのliタグを作ることができる。
+if (条件式){
+    //条件式がtrueなら実行
+}
+暗黙的型変換でif()に入れたものは真偽値に変換される。false以外はtrueに
+審議値の判定　falseになる値　false undefined null 0 ""　など　はfalse
+ループ
+forEach 配列の全要素に処理
+ローカルストレージ　ブラウザにデータを保存しておく仕組み
+データの保存
+localStorage.setItem("キー", "値");
+取得
+localStorage.getItem("キー");
+メソッドはブラウザAPIで入ってる
+
+
+fetch関数　外部からデータを持ってくるための関数
