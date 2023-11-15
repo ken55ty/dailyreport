@@ -1,0 +1,1 @@
+初歩的なことで躓いたけどrailsコマンドの前にdocker compose exec web をつけないといけないわ
